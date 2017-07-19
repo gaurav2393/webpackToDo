@@ -1,0 +1,19 @@
+{
+    "name": "learningToDo",
+    "version": "1.0.0",
+    "description": "Learning Webpack",
+    "main": "main.js",
+    "author": "Gaurav Gera",
+    "license": "Whatever",
+    "dependencies": {
+        "webpack": "^2.6.1",
+        "webpack-validator": "^2.3.0"
+    },
+    "scripts": {
+        "build:dev": "webpack",
+        "dev": "webpack-dev-server"
+    },
+    "devDependencies": {
+        "webpack-dev-server": "^2.5.1"
+    }
+}

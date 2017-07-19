@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>To Do</title>
+		<link rel="stylesheet" href="toDo.css">
+	</head>
+	<body>
+		<main>
+			<h1>To Dos</h1>
+			<div>
+				<label for="to_do_input">Add To Do List</label>
+				<input id="to_do_input" placeholder="Description"/>
+				<input type="button" value="Add" id="add_list_item">
+			</div>
+			<ul id="to_do_list" class="to-do-list">
+				<li>Learn ES6<span>1</span><span>&#10006</span></li>
+				<li>Learn React<span>2</span><span>&#10006</span></li>
+				<li>Play Football<span>3</span><span>&#10006</span></li>
+				<li>Read a book<span>4</span><span>&#10006</span></li>
+			</ul>
+		</main>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="dist/bundle.js"></script>
+	</body>
+</html>
