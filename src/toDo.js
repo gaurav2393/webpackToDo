@@ -1,4 +1,7 @@
-'use strict';
+import './todo.less';
+require('./module2.js');
+import $ from 'jquery';
+
 ( function() {
 	var crossContent='&#10006',
 		emptyInputError='You have not provided any input',
