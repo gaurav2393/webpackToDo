@@ -2,7 +2,7 @@ Array.prototype.customReduce = function(func, initialValue) {
 	var index,
 		length = this.length,
 		value = initialValue;
-	if(typeof link !== "undefined") {
+	if(typeof initialValue !== "undefined") {
 		index = 0;
 	}
 	else {
@@ -14,3 +14,9 @@ Array.prototype.customReduce = function(func, initialValue) {
 	}
 	return value;
 }
+
+var a=[4,6,7];
+var reducedValue=a.customReduce(function(value, init){
+	return value*init;
+}, 2);
+console.log(reducedValue);
